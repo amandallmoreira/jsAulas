@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Aula 07 - Cadastro Filmes </title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style/geral.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style/@media.css'>
+    
+</head>
+<body>
+    <header>
+    </header>
+    <main>
+        <div id="container">
+            <div id="filmesCadastro">
+                <h1>Cadastro de filmes</h1>
+                <label for="text">Nome do filme:</label>
+                <input type="text" id="nomeFilme" placeholder="Nome do filme"> 
+                <label for="date">Ano do filme:</label>
+                <input type="date" id="anoFilme" placeholder="Ano do filme"> 
+                <label for="text">Nome do diretor :</label>
+                <input type="text" id="diretorFilme" placeholder="Digite aqui"> 
+                <label for="text">Categoria:</label>
+                <select name="categoria" id="categoria">
+                    <option value="aventura">Aventura</option>
+                    <option value="acao">Ação</option>
+                    <option value="fantasia">Fantasia</option>
+                    <option value="suspense">Suspense</option>
+                    <option value="terror">Terror</option>
+                    <option value="drama">Drama</option>
+                    <option value="romance">Romance</option>
+                    <option value="comedia">Comédia</option>
+                    <option value="documentario">Documentário</option>
+                    <option value="ficcao">Ficção</option>
+                </select>
+                <label for="textarea">Descrição do filme:</label>
+                <input type="textarea" id="descricaoFilme" placeholder="Digite Aqui"> 
+
+                <button type="submit" id="cadastroFilmesBtn">Cadastrar</button>
+                <span id="msgCadastro"></span>
+
+                <h4>Procurando por filmes? Veja a lista completa!</h4>
+                <h5>Filmes cadastrados: <span id="qtFilmes"></span></h5>
+                <button type="reset" id="listarFilmesBtn">Listar</button>
+                <span id="msgResposta"></span>
+            </div>
+
+            <div id="resposta">
+                <div class="filme" id="templateFilme">
+                    <h2>Veja a lista dos melhores filmes!</h2>
+                    <div id="filmeBannerTemplate">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+       <p>Desenvolvido por @amandallmoreira</p> 
+    </footer>
+    <script src='js/script.js'></script>
+</body>
+</html>

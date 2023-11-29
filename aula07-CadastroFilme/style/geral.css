@@ -1,0 +1,131 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+header{
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/barbieBanner.jpeg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body{
+    background-color: rgb(252, 29, 152);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+#container{
+    width: 80%;
+    padding: 40px;
+    margin: 100px;
+    background-color: rgb(245, 167, 210);
+    box-shadow: 10px 10px  rgb(158, 141, 253);
+    border-radius: 20px;
+    display: flex ;
+    
+}
+#filmesCadastro{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    
+}
+#resposta{
+    width: 50%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;  
+    text-align: center;
+}
+#filmeBannerTemplate{
+    margin: 20px;
+    width: 300px;
+    height: 450px;
+    background-image: url(../img/barbieVertical.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    overflow: hidden;
+   
+}
+.filme{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border:2px solid  rgb(243, 24, 144);
+    padding: 30px;
+    border-radius: 10px;
+
+}
+input{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border: solid 2px rgb(243, 24, 144);
+}
+input, placeholder{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;  
+    padding: 5px;
+}
+select{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border: solid 2px rgb(243, 24, 144);
+}
+button{
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(243, 24, 144);
+    color:white;
+    font-weight: bold;
+}
+button:hover{
+    background-color:rgb(158, 141, 253);
+    color:white; 
+    width: 110px;
+    height: 40px;
+    box-shadow: 10px 10px 10px grey;
+    transition: 0,1s;
+}
+button:active{
+    color:rgb(243, 24, 144);
+    width: 110px;
+    height: 40px;
+    box-shadow: 10px 10px 10px grey;
+    transition: 0,1s;
+}
+
+.sucesso{
+    color:green;
+    font-size: 15px;
+    font-weight: bold;
+}

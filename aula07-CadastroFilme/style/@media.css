@@ -1,0 +1,33 @@
+@media screen and (max-width: 780px){
+    #container{
+        height: auto;
+        padding:60px 0px;
+    }
+
+    button{
+        height: 40px;
+    }
+
+    main{
+        flex-direction: column;
+       
+    }
+    main, #resposta{
+        width: 100%;
+        
+    }
+    #container, #resposta{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        height: auto;
+    }
+    .filme{
+        width: 80%;
+    }
+
+    #templateFilme{
+        display: none;
+    }
+}
