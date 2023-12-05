@@ -2,8 +2,13 @@
 // 2) Implementar o botão do tema dark e tema light
 
 // TABUADA
-
-let number = null;
-  for(let i = 1; i <= 10; i++) {
-      document.write(number + ' x ' + i + ' = ' + number * i + '<br>');
+$("#btnTabuada").on("click",function(){
+  var numero = Number($("#numeroEscolhido").val());
+  for(var i = 1; i <= 10; i++) {
+    document.querySelector("#resultadoTabuada").innerHTML+=`${i}x${numero}=${i*numero} <br>`;
   }
+
+});
+
+//var i = 1; i <= 10; i++, começa do 1 e vai ate 10
+  

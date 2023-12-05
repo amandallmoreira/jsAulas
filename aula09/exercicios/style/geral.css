@@ -1,0 +1,28 @@
+
+main{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.temaClaro{
+    background-color: antiquewhite;
+    color: black;
+    transition: 1s;
+}
+
+.temaEscuro{
+    background-color: rgb(58, 58, 58);
+    color:white;
+    transition: 1s;
+}
+
+hr{
+    border: 2px solid black;
+    width: 100%;
+}
+
