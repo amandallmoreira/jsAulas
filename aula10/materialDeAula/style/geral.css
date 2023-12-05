@@ -32,9 +32,12 @@ button{
 button:hover{
     width: 130px;
     height: 50px;
-    transition: 1s;
+    transition: 0.5s;
 }
 
 button:active{
-    background-color: ;
+    background-color: #f3a732;
+    width: 130px;
+    height: 50px;
+    transition: 0.5s;
 }
